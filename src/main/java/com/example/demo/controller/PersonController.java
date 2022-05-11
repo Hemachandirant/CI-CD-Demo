@@ -10,5 +10,8 @@ public class PersonController {
 	public String getName() {
 		return "Hai! It is working";
 	}
-
+	@RequestMapping("/getVersion")
+	public String getVersion() {
+		return "The version is 1.0";
+	}
 }
